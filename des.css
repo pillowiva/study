@@ -6,99 +6,101 @@ body {
     height: 3000px;
     background: #FFFFFF;
     flex-wrap: wrap;
-    }
-    
-    
-    /* Первый блок с основной информацией о проекте*/
-    
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    /* Основная часть (лес) */
-    .rectangle-1 {
+}
+
+
+/* Первый блок с основной информацией о проекте*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Основная часть (лес) */
+.rectangle-1 {
     position: absolute;
     width: 1920px;
     height: 1080px;
     left: 0px;
     top: 91px;
     background: url(лес.jpg);
-    }
-    
-    /* Сайт для быстрой разработки */
-    
-    h2 {
+}
+
+/* Сайт для быстрой разработки */
+
+h2 {
     position: absolute;
     width: 634px;
     height: 357px;
     left: 142px;
     top: 204px;
-    
+
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 96px;
     line-height: 117px;
-    
+
     color: #FFFFFF;
-    
+
     text-shadow: 10px 10px 10px #000000;
-    }
-    
-    
-    /* Часть с приглашением */
-    .rectangle-2 {
+}
+
+
+/* Часть с приглашением */
+.rectangle-2 {
     position: absolute;
     width: 626px;
     height: 900px;
     left: 1132px;
     top: 138px;
-    
+
     background: #FFFFFF;
     border-radius: 25px;
-    }
-    /* Мы ищем разработчиков */
-    h3 {
+}
+
+/* Мы ищем разработчиков */
+h3 {
     position: absolute;
     width: 523px;
     height: 232px;
     left: 1182px;
     top: 204px;
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 55px;
     line-height: 67px;
-    
+
     color: #000000;
-    }
-    
-    
-    /* Технический менеджер Фронтенд-разработчик Бекенд-разработчик Дизайнер */
-    ul {
+}
+
+
+/* Технический менеджер Фронтенд-разработчик Бекенд-разработчик Дизайнер */
+ul {
     position: absolute;
     width: 568px;
     height: 238px;
     left: 1182px;
     top: 360px;
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 100%;
     /* or 40px */
-    
+
     color: #000000;
-    }
-    li {
-        line-height: 1.8;
-    }
-    
-    /* Кнопка подать заявку */
-    button {
+}
+
+li {
+    line-height: 1.8;
+}
+
+/* Кнопка подать заявку */
+button {
     position: absolute;
     width: 520px;
     height: 145px;
@@ -107,7 +109,7 @@ body {
     border-radius: 30px 30px 30px 30px;
     border: 0;
     background-color: rgba(221, 180, 150, 0.62);
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -117,7 +119,354 @@ body {
     padding: 1em 1.5em;
     display: flex;
     align-items: center;
-    
+
     color: #814215;
-    }
+}
+
+/* второй блок с информацией */
+
+.second-block-info-container {
+    position: absolute;
+    width: 1752px;
+    height: 581px;
+    left: 60px;
+    top: 1250px;
+
+    position: absolute;
+    width: 891px;
+    height: 581px;
+    left: 60px;
+    top: 1250px;
+
+    background: url(second.jpg);
+}
+
+.rectangle-20 {
+    position: absolute;
+    width: 705px;
+    height: 114px;
+    left: 1021px;
+    top: 1700px;
+
+    background: #473D3D;
+
+    position: absolute;
+    width: 643px;
+    height: 69px;
+    left: 1062px;
+    top: 1723px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+}
+
+.rectangle-7 {
+    /* Rectangle 7 */
+
+    position: absolute;
+    width: 738px;
+    height: 269px;
+    left: 1000px;
+    top: 1250px;
+
+    background: #ECE0CF;
+    /* Стань частью принципиально нового коллектива */
+
+    position: absolute;
+    width: 782px;
+    height: 232px;
+    left: 1030px;
+    top: 1268px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+
+    color: #FF9500;
+}
+
+.rectangle-8 {
+    /* нужно лишь... */
+
+    position: absolute;
+    width: 711px;
+    height: 194px;
+    left: 1089px;
+    top: 1500px;
+
+
+
+    /* Rectangle 8 */
+
+    position: absolute;
+    width: 711px;
+    height: 194px;
+    left: 1089px;
+    top: 1500px;
+
+    background: #E8C05A;
+
+
+    /* нужно лишь привести 5 умеющих программировать друзей, а также написать в заявке их паспортные данные и снилс */
+
+    position: absolute;
+    width: 609px;
+    height: 156px;
+    left: 1132px;
+    top: 1527px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #674514;
+}
+
+.third-block-info-container {
+    /* ПРЯМОУГОЛЬНИК ЗА РЕБЕНКОМ */
+
+    position: absolute;
+    width: 1596px;
+    height: 837px;
+    left: 162px;
+    top: 1900px;
+
+    background: rgba(0, 0, 0, 0.46);
+    border-radius: 30px;
+}
+
+.rectangle-19 {
     /* Rectangle 19 */
+
+    position: absolute;
+    width: 1561px;
+    height: 794px;
+    left: 180px;
+    top: 1919px;
+
+    background: url(ДЕТИ.jpg);
+    border-radius: 30px;
+}
+
+h4 {
+    /* Оставить заявку на усыновление */
+
+    position: absolute;
+    width: 929px;
+    height: 59px;
+    left: 519px;
+    top: 1941px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.rectangle-10 {
+    /* ФОРМОЧКИ МОИ ФОРМЫ */
+
+    position: absolute;
+    width: 700px;
+    height: 632.41px;
+    left: 970px;
+    top: 2048px;
+}
+
+/* Rectangle 10 */
+.rectangle-11 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 970px;
+    top: 2048px;
+
+    background: #CFCFCF;
+
+
+    /* Rectangle 11 */
+}
+
+.rectangle-12 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 970px;
+    top: 2116px;
+
+    background: #CFCFCF;
+
+}
+
+
+/* Rectangle 12 */
+.rectangle-13 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 970px;
+    top: 2184px;
+
+    background: #CFCFCF;
+}
+
+
+/* Rectangle 13 */
+.rectangle-14 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 970px;
+    top: 2252px;
+
+    background: #CFCFCF;
+
+}
+
+.rectangle-15 {
+    /* Rectangle 14 */
+
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 970px;
+    top: 2320px;
+
+    background: #CFCFCF;
+}
+
+.rectangle-16 {
+    /* Rectangle 15 */
+
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 970px;
+    top: 2388px;
+
+    background: #CFCFCF;
+}
+
+/* Rectangle 16 */
+.rectangle-17 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 970px;
+    top: 2456px;
+
+    background: #CFCFCF;
+}
+
+.rectangle-18 {
+    /* Rectangle 17 */
+
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    left: 970px;
+    top: 2530.41px;
+
+    background: #CFCFCF;
+}
+
+dl {
+    /* Имя: Фамилия: Отчество: Номер паспорта: Серия паспорта: СНИЛС: Фото ребёнка (если есть): Почему вы взять р е б ё н к а? (Сочинение минимум 200 символов) */
+
+    position: absolute;
+    width: 716px;
+    height: 663px;
+    left: 202px;
+    top: 2042px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.2em;
+
+    line-height: 1.5;
+    color: #FFCA8B;
+}
+.fourth-block-info-container{
+    /* Блок 4 социалочки */
+
+position: absolute;
+width: 1800px;
+height: 150px;
+left: 84px;
+top: 2800px;
+background: rgba(219, 172, 107, 0.9);
+
+/* тут блок всяких социалочек там твиттер вк */
+}
+text {
+    /* тут блок всяких социалочек там твиттер вк */
+
+position: absolute;
+width: 1534px;
+height: 97px;
+left: 316px;
+top: 2826px;
+
+font-family: 'Montserrat Subrayada';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+
+color: #746060;
+}
+
+/* тут блок всяких социалочек там твиттер вк */
+
+position: absolute;
+width: 1534px;
+height: 97px;
+left: 316px;
+top: 2826px;
+
+font-family: 'Montserrat Subrayada';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+
+color: #746060;
+
+
+
+/* Фото кота */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 117px;
+top: 2820px;
+
+background: url(Рыжий dumbass);
+
+}
