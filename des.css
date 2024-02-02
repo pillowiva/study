@@ -1,0 +1,123 @@
+/*  */
+
+body {
+    position: relative;
+    width: 1920px;
+    height: 3000px;
+    background: #FFFFFF;
+    flex-wrap: wrap;
+    }
+    
+    
+    /* Первый блок с основной информацией о проекте*/
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    /* Основная часть (лес) */
+    .rectangle-1 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 91px;
+    background: url(лес.jpg);
+    }
+    
+    /* Сайт для быстрой разработки */
+    
+    h2 {
+    position: absolute;
+    width: 634px;
+    height: 357px;
+    left: 142px;
+    top: 204px;
+    
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 117px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 10px 10px 10px #000000;
+    }
+    
+    
+    /* Часть с приглашением */
+    .rectangle-2 {
+    position: absolute;
+    width: 626px;
+    height: 900px;
+    left: 1132px;
+    top: 138px;
+    
+    background: #FFFFFF;
+    border-radius: 25px;
+    }
+    /* Мы ищем разработчиков */
+    h3 {
+    position: absolute;
+    width: 523px;
+    height: 232px;
+    left: 1182px;
+    top: 204px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 67px;
+    
+    color: #000000;
+    }
+    
+    
+    /* Технический менеджер Фронтенд-разработчик Бекенд-разработчик Дизайнер */
+    ul {
+    position: absolute;
+    width: 568px;
+    height: 238px;
+    left: 1182px;
+    top: 360px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    /* or 40px */
+    
+    color: #000000;
+    }
+    li {
+        line-height: 1.8;
+    }
+    
+    /* Кнопка подать заявку */
+    button {
+    position: absolute;
+    width: 520px;
+    height: 145px;
+    left: 1185px;
+    top: 838px;
+    border-radius: 30px 30px 30px 30px;
+    border: 0;
+    background-color: rgba(221, 180, 150, 0.62);
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    padding: 1em 1.5em;
+    display: flex;
+    align-items: center;
+    
+    color: #814215;
+    }
+    /* Rectangle 19 */
