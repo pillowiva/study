@@ -150,11 +150,7 @@ button {
 
     background: #473D3D;
 
-    position: absolute;
-    width: 643px;
-    height: 69px;
-    left: 1062px;
-    top: 1723px;
+    padding: 30px 116px 29px 41px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -178,13 +174,8 @@ button {
     top: 1250px;
 
     background: #ECE0CF;
-    /* Стань частью принципиально нового коллектива */
 
-    position: absolute;
-    width: 782px;
-    height: 232px;
-    left: 1030px;
-    top: 1268px;
+    padding: 17px 41px 18px 30px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -200,32 +191,20 @@ button {
 .rectangle-8 {
     /* нужно лишь... */
 
-    position: absolute;
-    width: 711px;
-    height: 194px;
-    left: 1089px;
-    top: 1500px;
-
-
-
-    /* Rectangle 8 */
 
     position: absolute;
     width: 711px;
     height: 194px;
     left: 1089px;
     top: 1500px;
+
+    
 
     background: #E8C05A;
 
 
     /* нужно лишь привести 5 умеющих программировать друзей, а также написать в заявке их паспортные данные и снилс */
-
-    position: absolute;
-    width: 609px;
-    height: 156px;
-    left: 1132px;
-    top: 1527px;
+    padding: 27px 92px 11px 43px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -260,6 +239,8 @@ button {
     top: 1919px;
 
     background: url(ДЕТИ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 30px;
 }
 
@@ -285,115 +266,8 @@ h4 {
     color: #FFFFFF;
 }
 
-.rectangle-10 {
-    /* ФОРМОЧКИ МОИ ФОРМЫ */
-
-    position: absolute;
-    width: 700px;
-    height: 632.41px;
-    left: 970px;
-    top: 2048px;
-}
-
-/* Rectangle 10 */
-.rectangle-11 {
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 970px;
-    top: 2048px;
-
-    background: #CFCFCF;
-
-
-    /* Rectangle 11 */
-}
-
-.rectangle-12 {
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 970px;
-    top: 2116px;
-
-    background: #CFCFCF;
-
-}
-
-
-/* Rectangle 12 */
-.rectangle-13 {
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 970px;
-    top: 2184px;
-
-    background: #CFCFCF;
-}
-
-
-/* Rectangle 13 */
-.rectangle-14 {
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 970px;
-    top: 2252px;
-
-    background: #CFCFCF;
-
-}
-
-.rectangle-15 {
-    /* Rectangle 14 */
-
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 970px;
-    top: 2320px;
-
-    background: #CFCFCF;
-}
-
-.rectangle-16 {
-    /* Rectangle 15 */
-
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 970px;
-    top: 2388px;
-
-    background: #CFCFCF;
-}
-
-/* Rectangle 16 */
-.rectangle-17 {
-    position: absolute;
-    width: 500px;
-    height: 50px;
-    left: 970px;
-    top: 2456px;
-
-    background: #CFCFCF;
-}
-
-.rectangle-18 {
-    /* Rectangle 17 */
-
-    position: absolute;
-    width: 700px;
-    height: 150px;
-    left: 970px;
-    top: 2530.41px;
-
-    background: #CFCFCF;
-}
-
 dl {
-    /* Имя: Фамилия: Отчество: Номер паспорта: Серия паспорта: СНИЛС: Фото ребёнка (если есть): Почему вы взять р е б ё н к а? (Сочинение минимум 200 символов) */
+    /* Имя: Фамилия: Отчество:Номер паспорта: Серия паспорта: СНИЛС: Фото ребёнка (если есть): Почему вы взять р е б ё н к а? (Сочинение минимум 200 символов) */
 
     position: absolute;
     width: 716px;
@@ -402,7 +276,7 @@ dl {
     top: 2042px;
 
     font-family: 'Montserrat';
-    font-style: normal;
+    font-style: Medium;
     font-weight: 500;
     font-size: 40px;
     line-height: 49px;
@@ -411,62 +285,48 @@ dl {
     line-height: 1.5;
     color: #FFCA8B;
 }
-.fourth-block-info-container{
+
+.fourth-block-info-container {
     /* Блок 4 социалочки */
 
-position: absolute;
-width: 1800px;
-height: 150px;
-left: 84px;
-top: 2800px;
-background: rgba(219, 172, 107, 0.9);
+    position: absolute;
+    width: 1800px;
+    height: 150px;
+    left: 84px;
+    top: 2800px;
+    background: rgba(219, 172, 107, 0.9);
 
-/* тут блок всяких социалочек там твиттер вк */
+    /* тут блок всяких социалочек там твиттер вк */
 }
+
 text {
     /* тут блок всяких социалочек там твиттер вк */
 
-position: absolute;
-width: 1534px;
-height: 97px;
-left: 316px;
-top: 2826px;
+    position: absolute;
+    width: 1534px;
+    height: 97px;
+    left: 316px;
+    top: 2826px;
 
-font-family: 'Montserrat Subrayada';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 78px;
+    font-family: 'Montserrat Subrayada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
 
-color: #746060;
+    color: #746060;
 }
 
-/* тут блок всяких социалочек там твиттер вк */
+.get-a-free-baby
+{
+    position: absolute;
+    width: 1561px;
+    height: 794px;
+    left: 180px;
+    top: 1919px;
 
-position: absolute;
-width: 1534px;
-height: 97px;
-left: 316px;
-top: 2826px;
-
-font-family: 'Montserrat Subrayada';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 78px;
-
-color: #746060;
-
-
-
-/* Фото кота */
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 117px;
-top: 2820px;
-
-background: url(Рыжий dumbass);
-
+    background: url(ДЕТИ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
