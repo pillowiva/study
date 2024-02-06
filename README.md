@@ -1,1 +1,1 @@
-Prepare to hack ass
+Prepare to hack ass(вспоминали html&css)
